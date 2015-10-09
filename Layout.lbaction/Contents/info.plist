@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIconFile</key>
+    <string>icon.png</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.github.ironfish.launchbar.layout</string>
+    <key>CFBundleName</key>
+    <string>Layout</string>
+    <key>CFBundleVersion</key>
+    <string>0.1</string>
+
+
+    <key>LBScripts</key>
+    <dict>
+        <key>LBDefaultScript</key>
+        <dict>
+            <key>LBScriptName</key>
+            <string>layout_select.pl</string>
+            <key>LBLiveFeedbackEnabled</key>
+            <false/>
+            <key>LBRequiresArgument</key>
+            <false/>
+            <key>LBAcceptedArgumentTypes</key>
+            <array>
+                <string>string</string>
+            </array>
+            <key>LBReturnsResult</key>
+            <true/>
+            <key>LBRunInBackground</key>
+            <false/>
+        </dict>
+    </dict>
+
+    <key>LBDescription</key>
+    <dict>
+        <key>LBSummary</key>
+        <string>Window Layout Manager</string>
+        <key>LBAuthor</key>
+        <string>Duncan K. DeVore</string>
+        <key>LBEmail</key>
+        <string>duncan.devore@gmail.com</string>
+        <key>LBTwitter</key>
+        <string>@ironfish</string>
+    </dict>
+</dict>
+</plist>
